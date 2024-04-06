@@ -52,7 +52,7 @@ function Header2()
                    <li><Link to='/work'  className='links '>Work</Link><hr className='header-hr'></hr></li>
                    <li><Link to='/about'  className='links' >About</Link> <hr className='header-hr'></hr></li>
                    <Link to='/' className='center-links'><li>PORTFOLIO</li></Link>
-                   <Link to='/' className='center-links2'><li><h1><span className="p1">P</span><img  src={circlelogo} className='logo'/><span className='p2'>RTFOLIO</span></h1></li></Link>
+                   <Link to='/' className='center-links2'><li><h1><span className="p1">P</span><img  src={circlelogo} className='logo' alt=""/><span className='p2'>RTFOLIO</span></h1></li></Link>
                    <li><Link to='/contact'  className='links'>Contact</Link><hr className='header-hr'></hr></li>
                    <li className='skills'>Skills<MdKeyboardArrowDown className='arrow-down' />
                        <ul className='sub-menu'>
